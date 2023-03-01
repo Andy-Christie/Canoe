@@ -1,0 +1,92 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+header img {
+    width: 2em;
+}
+header {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    width: 100%;
+    /* max-width: 1200px; */
+    height: 2.5em;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.navButton {
+    display:inline-block; 
+    padding: 0.3em 0.3em;
+}
+.navButton:hover {
+    transform: scale(1.1);
+}
+header span {
+    display: inline-block;
+}
+.header-logo {
+    padding: 0.3em 0.3em;
+
+}
+nav {
+    background-color: darkblue;
+    width: 10em;
+    height: 9.5em;
+    color: white;
+    z-index: 1;
+    position: fixed;
+    top: 2.5em;
+}
+nav li {
+    list-style: none;
+    padding-left: 0.3em;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+/* Toggle list */
+nav ul {
+    padding-left: 0;
+}
+.main-img {
+    max-width: 1200px;
+    width: 100%;
+
+}
+.main-img-container {
+    display: flex;
+    justify-content: center;
+}
+.main-text-container {
+    /* position: relative; */
+}
+.main-text {
+    line-height: 2em;
+    position: absolute;
+    max-width: 1200px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1 {
+    padding-bottom: 0.3em;
+    text-decoration: underline;
+}
+h2 {
+    color: green;
+}
+@media (max-width: 800px) {
+    * {
+        font-size: small;
+    }
+}
+@media (max-width: 550px) {
+    * {
+        color: orange;
+    }
+}
