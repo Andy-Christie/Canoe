@@ -26,18 +26,25 @@
         </ul>
     </nav>
     <main>
-        <div class="main-img-container">
-            <img src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg" alt="" class="main-img"/>
-        </div>
-        <div class="main-text-container" >
-            <div class="main-text">
-                <h1>Upcoming Adventures</h1>
-                <h2>Halifax</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde dolores temporibus hic quam debitis tenetur harum nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde dolores temporibus hic quam debitis tenetur harum nemo.</p>
-                <h2>Sydney</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde dolores temporibus hic quam debitis tenetur harum nemo.</p>    
-            </div>
-        </div>
+      <form id="main-form" action="admin-add.php" method="get">
+        <label for="heading">Heading</label>
+        <br>
+        <input type="text" name="heading" placeholder="">
+        <br>
+        <label for="tripDate">Trip Date</label>
+        <br>
+        <input type="text" name="tripDate" placeholder="mm/dd/yyyy">
+        <br>
+        <label for="duration">Duration</label>
+        <br>
+        <input type="text" name="duration" placeholder="">
+        <br>
+        <label for="summary">Summary</label>
+        <br>
+        <input type="text" name="summary" placeholder="">
+        <br>
+        <input type="submit">
+      </form>
     </main>
    
     
